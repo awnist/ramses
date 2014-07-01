@@ -1,0 +1,30 @@
+{
+  "name": "ramses",
+  "description": "A RAML superset for better build systems.",
+  "author": "Awnist <hi@awnist.com> (http://awnist.com)",
+  "version": "0.0.1",
+  "main": "./lib/ramses",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:awnist/ramses.git"
+  },
+  "license": {
+    "type": "Public Domain",
+    "url": "http://unlicense.org/"
+  },
+  "keywords": [
+    "cson",
+    "json",
+    "raml",
+    "mixin",
+    "schema"
+  ],
+  "dependencies": {
+    "glob": "~4.0.3",
+    "detect-indent": "~0.2.0",
+    "csonmason": "0.0.2"
+  },
+  "scripts": {
+    "prepublish": "coffee -o lib/ -c src/"
+  }
+}
