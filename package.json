@@ -2,7 +2,7 @@
   "name": "ramses",
   "description": "A RAML superset for better build systems.",
   "author": "Awnist <hi@awnist.com> (http://awnist.com)",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "main": "./lib/ramses",
   "repository": {
     "type": "git",

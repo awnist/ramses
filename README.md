@@ -11,7 +11,7 @@ Ramses is a node.js module that makes building [RAML](http://raml.org/) awesome.
 
 ### Better includes
 
-How about including a list of files in list form?
+How about including a directory of files in list form?
 
     traits: !include config/traits/*
     resourceTypes: !include config/resourceTypes/*
