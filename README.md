@@ -23,7 +23,7 @@ How about being able to include anything, anywhere?
 
 ### Better JSON
 
-How about including a [CSON](https://github.com/bevry/cson) schema based on [csonmason](https://github.com/awnist/csonmason) that automatically compiles down to JSON?
+How about including a [CSON](https://github.com/bevry/cson) schema based on [xcson](https://github.com/awnist/xcson) that automatically compiles down to JSON?
 
     schema: !include example.cson
 

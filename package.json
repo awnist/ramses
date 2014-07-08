@@ -2,7 +2,7 @@
   "name": "ramses",
   "description": "A RAML superset for better build systems.",
   "author": "Awnist <hi@awnist.com> (http://awnist.com)",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "main": "./lib/ramses",
   "repository": {
     "type": "git",
@@ -22,7 +22,7 @@
   "dependencies": {
     "glob": "~4.0.3",
     "detect-indent": "~0.2.0",
-    "csonmason": "0.0.2"
+    "xcson": "0.0.x"
   },
   "scripts": {
     "prepublish": "coffee -o lib/ -c src/"
