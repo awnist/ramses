@@ -2,7 +2,7 @@ fs = require 'fs'
 glob = require 'glob'
 path = require 'path'
 detectIndent = require 'detect-indent'
-csonmason = require 'csonmason'
+xcson = require 'xcson'
 
 module.exports = buildFragment = (file) ->
 
@@ -36,7 +36,7 @@ module.exports = buildFragment = (file) ->
 
 				if found.match /\.(c|j)son/
 					isjson = true
-					mason = new csonmason
+					mason = new xcson
 						file: foundfile
 						stringifySpaces: spaces
 					infile = mason.toString()
